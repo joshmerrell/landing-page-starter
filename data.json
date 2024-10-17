@@ -1,0 +1,16 @@
+{
+    "myLinks": [
+        {
+        "name": "GitHub",
+        "url": "https://github.com/joshmerrell"
+        },
+        {
+        "name": "CodePen",
+        "url": "https://codepen.io/joshmerrell"
+        },
+        {
+        "name": "LinkedIn",
+        "url": "https://www.linkedin.com"
+        }
+    ]
+}
