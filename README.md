@@ -1,8 +1,5 @@
-# Web Dev Starter
-Boilerplate for static websites
+# Josh Merrell landing page
+PWA Boilerplate assignment
 
-## What is this?
-- Starting point for static websites
-
-## How do I use this?
-- Clone this repo
+## Sources
+https://realfavicongenerator.net/
