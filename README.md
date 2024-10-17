@@ -1,5 +1,6 @@
 # Josh Merrell landing page
-PWA Boilerplate assignment
+Landing page assignment
 
 ## Sources
-https://realfavicongenerator.net/
+- https://realfavicongenerator.net/
+- https://github.com/ewuweblab/landing-page-starter-pwa-json

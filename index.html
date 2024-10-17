@@ -1,29 +1,48 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joshua Merrell Landing Page</title>
 
     <!-- Favicons -->
-    <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
+    <link rel="icon" type="image/png" href="/favicons/favicon-48x48.png" sizes="48x48" />
+    <link rel="icon" type="image/svg+xml" href="/favicons/favicon.svg" />
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-title" content="Web Dev Starter" />
+    <link rel="manifest" href="/favicons/site.webmanifest" />
 
-    <!-- Stylesheet -->
-    <link rel="stylesheet" href="style.css">
+    <!-- Stylesheets -->
+      <!-- Normalize -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+   
+   <!-- Baseline Styling -->
+   <link rel="stylesheet" href="base.css">
+   <!-- Specific Elements -->
+   <link rel="stylesheet" href="style.css">
 
-    <!-- Scripts -->
-    <script src="script.js" defer></script>
-    
-    <title>Josh Merrell Landing Page</title>
+   <!-- JavaScript -->
+    <script src="script.js" defer></script> 
+   
 </head>
 <body>
-    <h1>Josh Merrell Landing Page</h1>
-    <img src="/favicons/web-app-manifest-192x192.png" alt="Image">
 
-    <p>&lt;bio goes here&gt;</p>
+    <main>
+
+    <h1>Joshua Merrell Landing Page</h1>
+
+    <img src="/favicons/web-app-manifest-192x192.png" alt="Me">
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora quidem amet molestiae ipsam iste aliquam repellendus consectetur nemo suscipit, quos delectus, eos dolore perspiciatis aspernatur aperiam voluptas eius soluta vitae?</p>
+
+    <h2>My Links</h2>
+
+    <!-- dynamically generate external links from JSON file -->
+    <ul id="myLinks"></ul>
+
+    </main>
     
 </body>
 </html>
